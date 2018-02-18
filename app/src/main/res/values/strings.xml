@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Singlescreenapp-TheWorks</string>
+    <string name="logo">The Works Logo</string>
+
+    <string name="sub">Eat at The Works \n Brunch, crepe &amp; ice cream Restaurant</string>
+    <string name="works">The Works</string>
+    <string name="street">7-9 Market Square</string>
+    <string name="town">Aylesbury</string>
+    <string name="postcode">HP20 1TA</string>
+    <string name="tel">+44 1296 437289</string>
+    <string name="website">http://eatattheworks.co.uk</string>
+
+    <string name="open">Opening hours:</string>
+
+    <string name="mon">Mon - Thu: 9AM - 10PM</string>
+    <string name="fri">Fri - Sat: 9AM - 11PM</string>
+    <string name="sun">Sun: 10AM - 10PM</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="smallMargin">16dp</dimen>
+    <dimen name="vsmallMargin">10dp</dimen>
+    <dimen name="indent">35dp</dimen>
+</resources>

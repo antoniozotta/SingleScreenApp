@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BGround"
+    tools:context="com.example.android.singlescreenapp_theworks.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/theworkslogo" />
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_marginBottom="@dimen/smallMargin"
+            android:background="@color/sub"
+            android:gravity="center"
+            android:padding="@dimen/vsmallMargin"
+            android:text="@string/sub"
+            android:textAppearance="@style/Fontsub" />
+
+        <TextView
+            android:id="@+id/works"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sub"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:drawableLeft="@drawable/locw"
+            android:drawablePadding="@dimen/vsmallMargin"
+            android:drawableStart="@drawable/locw"
+            android:text="@string/works"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/works"
+            android:layout_alignStart="@+id/works"
+            android:layout_below="@+id/works"
+            android:layout_marginLeft="@dimen/indent"
+            android:layout_marginStart="@dimen/indent"
+            android:text="@string/street"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/town"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/street"
+            android:layout_alignStart="@+id/street"
+            android:layout_below="@+id/street"
+            android:text="@string/town"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/town"
+            android:layout_alignStart="@+id/town"
+            android:layout_below="@+id/town"
+            android:text="@string/postcode"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pc"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/phonew"
+            android:drawablePadding="@dimen/vsmallMargin"
+            android:drawableStart="@drawable/phonew"
+            android:text="@string/tel"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tel"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/webw"
+            android:drawablePadding="@dimen/vsmallMargin"
+            android:drawableStart="@drawable/webw"
+            android:text="@string/website"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/website"
+            android:layout_marginLeft="@dimen/smallMargin"
+            android:layout_marginStart="@dimen/smallMargin"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:drawableLeft="@drawable/clockw"
+            android:drawablePadding="@dimen/vsmallMargin"
+            android:drawableStart="@drawable/clockw"
+            android:text="@string/open"
+            android:textAppearance="@style/Font" />
+
+        <TextView
+            android:id="@+id/mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pc"
+            android:layout_alignStart="@+id/pc"
+            android:layout_below="@+id/open"
+            android:text="@string/mon"
+            android:textAppearance="@style/Fontsm" />
+
+        <TextView
+            android:id="@+id/fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mon"
+            android:layout_alignStart="@+id/mon"
+            android:layout_below="@+id/mon"
+            android:text="@string/fri"
+            android:textAppearance="@style/Fontsm" />
+
+        <TextView
+            android:id="@+id/sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fri"
+            android:layout_alignStart="@+id/fri"
+            android:layout_below="@+id/fri"
+            android:text="@string/sun"
+            android:textAppearance="@style/Fontsm" />
+    </RelativeLayout>
+
+</ScrollView>
